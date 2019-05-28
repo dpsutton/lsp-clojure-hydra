@@ -20,7 +20,7 @@
 
 ;;; Commentary:
 
-;; 
+;;
 
 ;;; Code:
 
@@ -33,11 +33,11 @@
 Threading                      Code Manip                      Namespace                       Misc
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 _th_: Thread first             _el_: Expand let                _cn_: Clean ns                  _cp_: Cycle privacy
-_tf_: Thread first all         _il_: Introduce let             _am_: Add missing libspec       _cc_: Cycle coll              
-_tt_: Thread last              _ml_: Move to let                                                             
-_tl_: Thread last all          _ef_: Extract function                                            
-_ua_: Unwind all                                                                                 
-_uw_: Unwind thread                                                                              
+_tf_: Thread first all         _il_: Introduce let             _am_: Add missing libspec       _cc_: Cycle coll
+_tt_: Thread last              _ml_: Move to let
+_tl_: Thread last all          _ef_: Extract function
+_ua_: Unwind all
+_uw_: Unwind thread
 "
 
   ("cp" lsp-clojure-cycle-privacy)
